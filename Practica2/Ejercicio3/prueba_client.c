@@ -34,7 +34,7 @@ void calculadora_prog_1(char *host, struct operandos operands)
 	clock_t end=clock();
 	double time=(double) (end-start) / CLOCKS_PER_SEC;	
 
-	printf("El resultado de la suma es %d y el tiempo consumido han sido %f segundos.\n",total,time);
+	printf("\nEl resultado de la suma es %d y el tiempo consumido han sido %f segundos.\n",total,time);
 
 #ifndef	DEBUG
 	clnt_destroy (clnt);
